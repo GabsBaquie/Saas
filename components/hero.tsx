@@ -38,15 +38,17 @@ const Hero = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
           Suspendisse varius enim in eros elementum tristique.
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <Button size="lg" className="rounded-3xl text-base font-light">
+        <div className="flex justify-center gap-4">
+          <Button
+            size="default"
+            className="rounded-3xl text-sm sm:text-base font-light">
             Download the app
           </Button>
 
           <Button
             variant="outline"
-            size="lg"
-            className=" bg-transparent border-gray-50 rounded-3xl text-base font-light ">
+            size="default"
+            className=" bg-transparent border-gray-50 rounded-3xl text-sm sm:text-base font-light ">
             Talk to an expert
           </Button>
         </div>

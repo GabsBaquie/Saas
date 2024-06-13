@@ -22,7 +22,7 @@ const Section: React.FC = () => {
           height={400}
           className="absolute -top-24"
         />
-        <h2 className="text-5xl max-w-96 text-center">
+        <h2 className="text-4xl sm:text-5xl max-w-96 text-center">
           Features that work for your future.
         </h2>
         <p className="text-center text-lg font-extralight">
