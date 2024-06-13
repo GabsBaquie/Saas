@@ -7,7 +7,7 @@ import Section from "@/components/section";
 
 export default function Home() {
   return (
-    <main className="h-full bg-[#0B0221]">
+    <main className="h-full bg-[#0B0221] overflow-x-hidden">
       <NavBar />
       <Hero />
       <Logos />

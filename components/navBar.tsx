@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription } from "./ui/card";
 const NavBar: React.FC = () => {
   return (
     <AnimatedNavBar>
-      <nav className="fixed my-4 mx-2 w-[-webkit-fill-available] z-50">
+      <nav className="fixed my-4 mx-4 w-[-webkit-fill-available] z-50">
         <Card className=" bg-black bg-opacity-40 shadow-md border-none rounded-2xl backdrop-filter backdrop-blur-md 2xl:mx-40 ">
           <CardContent className="flex justify-between items-center py-2 px-4">
             <div className="flex gap-2 items-center">
