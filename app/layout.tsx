@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(montserrat.className, "h-full")}>{children}</body>
+      <body className={cn(montserrat.className, "h-full overflow-x-hidden")}>
+        {children}
+      </body>
     </html>
   );
 }
