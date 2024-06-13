@@ -46,6 +46,7 @@ const Footer: React.FC = () => {
               alt={"logo"}
               width={22}
               height={22}
+              priority={true}
             />
             <h1 className="text-xl font-bold">Vaultflow</h1>
           </div>
